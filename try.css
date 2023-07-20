@@ -1,13 +1,41 @@
-body {
-  background-color: gainsboro;
-  color: black;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-  font-size: 16px;
-  font-weight: normal;
+.navi {
+  margin-top: 20px;
+  position: absolute;
+  right: 219px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
 
-.logo {
-  width: 150px;
+.navi img {
+  max-width: 20px;
+  margin: 0 6px;
 }
 
+.navi a:visited {
+  color: rgb(83, 80, 80);
+}
+
+.words {
+  margin: 0 25px;
+  text-decoration: none;
+  color: rgb(83, 80, 80);
+}
+
+.about {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.ava img {
+  max-width: 200px;
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  border-radius: 50%;
+  box-shadow: 3px 5px 0;
+}
